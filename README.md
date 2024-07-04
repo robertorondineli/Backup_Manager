@@ -6,26 +6,33 @@ Este script é um gerenciador de backups que permite aos usuários procurar back
 
 # Funcionalidades
 Procurar Backup (BKP)
+
 Adicionar Backup (BKP)
+
 Buscar HDs com Espaço Livre
+
 Sair
 
 # Requisitos
 Python 3.6 ou superior
+
 Bibliotecas Python: pandas, os
+
 Arquivo Excel contendo dados dos backups
+
 Estrutura do Arquivo Excel
-O arquivo Excel deve conter as seguintes colunas:
+
+# O arquivo Excel deve conter as seguintes colunas:
 
 nome do hd: Nome do HD onde o backup está armazenado
+
 nome do colaborador: Nome do colaborador associado ao backup
+
 tamanho do backup: Tamanho do backup em GB
+
 tamanho do hd: Tamanho total do HD em GB
-Instruções de Uso
-Instalação das Dependências
 
 # Instale as dependências necessárias:
-
 
 pip install pandas
 
