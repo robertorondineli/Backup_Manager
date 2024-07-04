@@ -7,7 +7,7 @@ def clear_screen():
     else:
         os.system('clear')
 
-file_path = 'C:\\Users\\betof\\OneDrive\\Documentos\\Relação bkps\\bkps.xlsx'
+file_path = 'C:\\local\\da\\sua\\planilha.xlsx'
 extrair_dados = pd.read_excel(file_path)
 dados = extrair_dados.to_dict(orient='records')
 
